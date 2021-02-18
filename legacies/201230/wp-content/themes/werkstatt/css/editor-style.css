@@ -1,0 +1,314 @@
+/*
+Theme Name: Werkstatt
+Description: Used to style the TinyMCE editor.
+
+* @version 1.0
+*/
+
+
+html .mceContentBody {
+	max-width: 800px;
+}
+body {
+	font-family: 'Rubik', sans-serif;
+	font-size: 15px;
+	line-height: 1.6;
+	color: #000;
+	font-weight: normal;
+	text-rendering: optimizeLegibility;
+	vertical-align: baseline;
+}
+
+/* --- Headlines --- */
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+}
+.entry-content h2 {
+	font-size: 18px;
+	font-size: 1.125rem;
+	padding: 6px 0;
+}
+.entry-content  h3,
+.entry-content  h4 {
+	font-size: 16px;
+	font-size: 1rem;
+	padding: 5px 0;
+}
+.entry-content  h5,
+.entry-content  h6 {
+	padding: 0 0 3px;
+}
+
+/* --- Text Elements --- */
+p {
+	margin-bottom: 30px;
+}
+p strong {
+	font-weight: bold !important;
+}
+em {
+	font-style: italic;
+}
+p small {
+	font-size: .8em;
+}
+blockquote {
+	padding-left: 40px;
+	padding-right: 60px;
+	position: relative;
+	font-style: italic;
+	border-left: 2px solid #000;
+}
+blockquote cite {
+	display: block;
+	padding-top:  10px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	font-size: 0.75rem;
+}
+blockquote cite:before {
+	display: block;
+	padding-top:  10px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	font-size: 0.8125rem;
+}
+blockquote cite:before {
+	content: '\2014';
+	display: inline-block;
+	padding: 0 2px 0 0;
+}
+p.pull-left,
+p.pull-right {
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+p.pull-right {
+	text-align: right;
+}
+.pull-left {
+	max-width: 50%;
+	float: left;
+	padding: 0 50px 0 0;
+}
+.pull-right {
+	max-width: 50%;
+	float: right;
+	padding: 0 0 0 30px;
+	text-align: right;
+}
+span.dropcap {
+	float: left;
+	padding: 3px 4px 0 0;
+	font-size: 48px;
+	font-size: 3rem;
+	line-height: 0.9;
+	font-weight: bold;
+}
+p.intro {
+	font-size: 20px;
+	font-size: 1.25rem;
+	line-height: 1.4;
+}
+p.note {
+	font-size: 13px;
+	font-size: 0.8125rem;
+	font-style: italic;
+	line-height: 1.35;
+	padding: 0 0 0 30px;
+	position: relative;
+}
+p.note:before {
+	font: normal 18px/1 'Genericons';
+	position: absolute;
+	top: 1px;
+	left: 0;
+	content: '\f455';
+	display: block;
+}
+address {
+	margin: 0 0 30px;
+}
+pre {
+	max-width: 100%;
+	word-wrap: break-word;
+	margin-bottom: 43px;
+	padding: 30px;
+	overflow: auto;
+	background: #F5F5F5;
+	font-family: Courier, Monaco, monospace;
+	font-size: 18px;
+	font-size: 1.125rem;
+}
+code, kbd, tt, var {
+	font-family: Courier, Monaco, monospace;
+	font-size: 18px;
+	font-size: 1.125rem;
+}
+abbr,acronym {
+	border-bottom:.1em dotted;
+}
+mark, ins {
+	background: #d7e844;
+	text-decoration: none;
+	padding: 0 3px;
+}
+
+/* --- Images --- */
+img, .page img {
+	max-width:100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+}
+img[class*="wp-image-"] {
+	height: auto;
+	max-width: 97.5%;
+}
+img.size-full {
+	width: auto; /* Prevent stretching of full-size images in IE8 */
+}
+p img,
+.wp-caption {
+	margin-top: 0.4em;
+}
+.wp-caption {
+	font-size: 12px;
+	font-size: 0.75rem;
+	line-height: 1.5;
+	color: #999;
+}
+.wp-caption-dd {
+	font-size: 12px;
+	font-size: 0.75rem;
+	line-height: 1.5;
+	color: #999;
+	padding: 8px 0 30px;
+}
+img {
+	border: none;
+}
+img.alignleft,
+img.alignright,
+img.aligncenter {
+	margin-bottom: 1.625em;
+}
+.wp-caption {
+	max-width: 100%;
+}
+.wp-caption .wp-caption-text {
+	margin: 0;
+	padding: 10px 2px 38px;
+}
+/* --- Tables --- */
+table {
+	width: 100%;
+	margin: 0 0 40px;
+	border-collapse: collapse;
+	border-spacing: 0;
+	border-bottom: 1px solid #00;
+	line-height: 2;
+	font-family: 'Martel Sans', sans-serif;
+	font-size: 18px;
+}
+table td {
+	padding: 10px 10px 10px 0;
+	border-top: 1px solid #00;
+}
+table caption {
+	margin: 40px 0;
+}
+table th {
+	padding: 10px 10px 10px 0;
+	text-align:left;
+	color: #000;
+}
+
+/* --- List Elements --- */
+ul, ol {
+	margin: 0 0 30px 0;
+	padding-left: 40px;
+	list-style-position: inside;
+}
+ul {
+	list-style: none;
+}
+ul li {
+	position: relative;
+	padding: 0 0 0 24px;
+}
+ul li:before {
+	vertical-align: top;
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: '\2013';
+	padding: 0;
+}
+ol {
+	list-style: decimal;
+}
+li > ul,
+li > ol {
+	margin-bottom: 0;
+	margin-left: 0;
+}
+ul {
+	padding-left: 50px;
+}
+ol {
+	padding-left: 70px;
+}
+ol li {
+	padding-left: 4px;
+}
+ul li,
+ol li {
+	list-style-position: outside;
+}
+ul ul,
+ol ol{
+	padding-left: 50px;
+	margin: 0;
+}
+
+/* --- Links --- */
+a,
+a em,
+a strong {
+	color: #000;
+	text-decoration: underline;
+}
+a:hover {
+	color: #000;
+}
+
+/* --- Alignment --- */
+.wp-caption {
+    max-width: 100%;
+}
+.alignleft,
+.alignright {
+	display: block;
+}
+.alignleft {
+	margin: 5px 45px 5px 0;
+	float: left;
+}
+.alignright {
+	margin: 5px 0 0 30px;
+	float: right;
+}
+.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+}
+img.alignleft,
+img.alignright {
+	margin-top:10px;
+	margin-bottom:20px;
+}

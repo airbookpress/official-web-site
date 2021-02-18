@@ -1,0 +1,8 @@
+<wpml-config>
+    <admin-texts>
+	    <key name="theme_mods_werkstatt">
+          <!-- header.php -->
+	        <key name="werkstatt_intro" />
+	    </key>
+    </admin-texts>
+</wpml-config>

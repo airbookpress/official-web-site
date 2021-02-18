@@ -1,0 +1,475 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Werkstatt\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-28 20:42+0000\n"
+"POT-Revision-Date: Tue Dec 08 2015 11:01:05 GMT+1300 (NZDT)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Ellen Bauer <ellen.bauer@elmastudio.de>\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: de_DE\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-SearchPath-0: ..\n"
+"Language: "
+
+#: functions.php:48
+msgid "small"
+msgstr ""
+
+#: functions.php:49
+msgid "S"
+msgstr ""
+
+#: functions.php:54
+msgid "regular"
+msgstr ""
+
+#: functions.php:55
+msgid "M"
+msgstr ""
+
+#: functions.php:60
+msgid "large"
+msgstr ""
+
+#: functions.php:61
+msgid "L"
+msgstr ""
+
+#: functions.php:66
+msgid "larger"
+msgstr ""
+
+#: functions.php:67
+msgid "XL"
+msgstr ""
+
+#: functions.php:79
+msgid "black"
+msgstr ""
+
+#: functions.php:84
+msgid "white"
+msgstr ""
+
+#: functions.php:89
+msgid "light grey"
+msgstr ""
+
+#: functions.php:94
+msgid "grey"
+msgstr ""
+
+#: functions.php:99
+msgid "yellow"
+msgstr ""
+
+#: functions.php:104
+msgid "red"
+msgstr ""
+
+#: functions.php:109
+msgid "green"
+msgstr ""
+
+#: functions.php:114
+msgid "blue"
+msgstr ""
+
+#: functions.php:131
+msgid "Primary menu"
+msgstr ""
+
+#: functions.php:132
+msgid "Social menu"
+msgstr ""
+
+#: functions.php:162
+msgctxt "Rubik: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:208
+msgid "expand child menu"
+msgstr ""
+
+#: functions.php:209
+msgid "collapse child menu"
+msgstr ""
+
+#: functions.php:334
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: functions.php:338
+msgid " Edit"
+msgstr ""
+
+#: functions.php:345
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:349
+msgid "Reply"
+msgstr ""
+
+#: functions.php:360
+msgid "Pingback:"
+msgstr ""
+
+#: functions.php:376
+msgid "Overlay Widget Area 1"
+msgstr ""
+
+#: functions.php:378
+msgid "Widgets appear in the first column of the overlay widget area."
+msgstr ""
+
+#: functions.php:386
+msgid "Overlay Widget Area 2"
+msgstr ""
+
+#: functions.php:388
+msgid "Widgets appear in the second column of the overlay widget area."
+msgstr ""
+
+#: functions.php:396
+msgid "Overlay Widget Area 3"
+msgstr ""
+
+#: functions.php:398
+msgid "Widgets appear in the third column of the overlay widget area."
+msgstr ""
+
+#: functions.php:406
+msgid "Overlay Widget Area 4"
+msgstr ""
+
+#: functions.php:408
+msgid "Widgets appear in the fourth column of the overlay widget area."
+msgstr ""
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:21
+msgid ""
+"It looks like nothing was found at this location. Maybe try another search "
+"term?"
+msgstr ""
+
+#: index.php:29 index.php:30 archive.php:46 archive.php:47
+msgid "Older"
+msgstr ""
+
+#: index.php:32 index.php:33 archive.php:48 archive.php:49
+msgid "Newer"
+msgstr ""
+
+#: index.php:34 archive.php:50 search.php:51
+msgid "Page"
+msgstr ""
+
+#: comments.php:25
+#, php-format
+msgid "Comment (1)"
+msgid_plural "Comments (%1$s)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:38
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:39
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:47
+msgid "Comments are closed."
+msgstr ""
+
+#: content.php:27 template-parts/content-single.php:21
+#, php-format
+msgid "by <a href=\"%1$s\" title=\"%2$s\">%3$s</a>"
+msgstr ""
+
+#: content.php:29 template-parts/content-single.php:23
+#, php-format
+msgid "All posts by %s"
+msgstr ""
+
+#: content.php:33 image.php:31 template-parts/content-single.php:32
+#: template-parts/content-page.php:34
+msgid "Edit"
+msgstr ""
+
+#: search.php:17
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: search.php:32 template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: search.php:36 template-parts/content-none.php:24
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: search.php:46 search.php:47 header.php:65 single.php:19
+msgid "Next"
+msgstr ""
+
+#: search.php:48 search.php:49 single.php:21
+msgid "Previous"
+msgstr ""
+
+#: sidebar-overlay.php:61 footer.php:24
+msgid "Powered by"
+msgstr ""
+
+#: sidebar-overlay.php:61 footer.php:24
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: sidebar-overlay.php:61 footer.php:24
+msgid "WordPress."
+msgstr ""
+
+#: sidebar-overlay.php:62 footer.php:25
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: header.php:43
+msgid "Home"
+msgstr ""
+
+#: single.php:20
+msgid "next post"
+msgstr ""
+
+#: single.php:22
+msgid "previous post"
+msgstr ""
+
+#: image.php:28 template-parts/content-single.php:29
+msgid "Leave a comment"
+msgstr ""
+
+#: image.php:28
+msgid "comment 1"
+msgstr ""
+
+#: image.php:28
+msgid "comments %"
+msgstr ""
+
+#: image.php:58
+msgid "Next Image"
+msgstr ""
+
+#: image.php:59
+msgid "Previous Image"
+msgstr ""
+
+#: searchform.php:12
+msgid "Search"
+msgstr ""
+
+#: searchform.php:13
+msgctxt "placeholder"
+msgid " "
+msgstr ""
+
+#: searchform.php:14
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: inc/customizer.php:18
+msgid "Site Title Color"
+msgstr ""
+
+#: inc/customizer.php:19
+msgid "Logo"
+msgstr ""
+
+#: inc/customizer.php:23
+msgid "Theme Options"
+msgstr ""
+
+#: inc/customizer.php:42
+msgid "Link Color"
+msgstr ""
+
+#: inc/customizer.php:56
+msgid "Intro Text"
+msgstr ""
+
+#: inc/customizer.php:57
+msgid "Intro text on the blog front papge. (HTML is allowed)"
+msgstr ""
+
+#: inc/customizer.php:69
+msgid "Footer credit text"
+msgstr ""
+
+#: inc/customizer.php:70
+msgid "Customize the footer credit text. (HTML is allowed)"
+msgstr ""
+
+#: inc/customizer.php:82
+msgid "Show credit text in footer"
+msgstr ""
+
+#. Name of the template
+msgid "Full Width Page"
+msgstr ""
+
+#: template-parts/content-single.php:29
+msgid "Comment 1"
+msgstr ""
+
+#: template-parts/content-single.php:29
+msgid "Comments %"
+msgstr ""
+
+#: template-parts/content-single.php:35
+msgid "Filed under: "
+msgstr ""
+
+#: template-parts/content-single.php:52 template-parts/content-page.php:27
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-single.php:60
+msgid "Tags: "
+msgstr ""
+
+#: template-parts/content-none.php:20
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:29
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/overlay-widgetarea.php:11
+msgid "Info"
+msgstr ""
+
+#: template-parts/overlay-widgetarea.php:27
+msgid "Close"
+msgstr ""
+
+#. Name of the theme
+msgid "Werkstatt"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Werkstatt is a mimimal responsive photography blog theme with a horizontal "
+"scrolling blog front page. The theme is easy to use and lets your feature "
+"your photography and artwork in a beautifully clean way."
+msgstr ""
+
+#. URI of the theme
+msgid "https://www.elmastudio.de/en/themes/werkstatt/"
+msgstr ""
+
+#. Author of the theme
+msgid "Elmastudio"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://www.elmastudio.de/en/"
+msgstr ""
+
+msgid ""
+"<strong>%s</strong> supports automatic updates using WordPress' update "
+"mechanism. To use this feature you need to activate the theme using your "
+"Product Key, which can be found in your Elmastudio account dashboard. The "
+"theme stays fully functional without activation and still can be updated "
+"manually. %sClick here%s to activate <strong>%s</strong>."
+msgstr ""
+
+msgid ""
+"<b>Warning!</b> You're blocking external requests which means you won't be "
+"able to get %s updates. Please add %s to %s."
+msgstr ""
+
+msgid " Activation"
+msgstr ""
+
+msgid " Product Key Activation"
+msgstr ""
+
+msgid "Product Key Activation"
+msgstr ""
+
+msgid "Product Key Deactivation"
+msgstr ""
+
+msgid "Product Key"
+msgstr ""
+
+msgid "Product ID"
+msgstr ""
+
+msgid "Product Key Status"
+msgstr ""
+
+msgid "Deactivate Product Key"
+msgstr ""
+
+msgid "Save Changes"
+msgstr ""
+
+msgid "Activated"
+msgstr ""
+
+msgid "Deactivated"
+msgstr ""
+
+msgid ""
+"Connection failed to the Elmastudio server. Try again later. There may be a "
+"problem on your server preventing outgoing requests."
+msgstr ""
+
+msgid "Product Key deactivated."
+msgstr ""
+
+msgid ""
+"The Product Key could not be deactivated. Use the Product Key Deactivation "
+"tab to manually deactivate the Product Key before activating a new Product "
+"Key."
+msgstr ""
+
+msgid "Deactivates an Product Key so it can be used on another blog."
+msgstr ""
+
+msgid "%s activated."
+msgstr ""
